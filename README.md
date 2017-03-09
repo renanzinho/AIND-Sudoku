@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: I look for each box with the length of 2, if there is a peer with the same possible values. If there is, I delete these values from the other boxes in the same unit.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: I just update the peers with the diagonals as peers, so the solver will act as it always act and say there is an error if there is two equal elements in the same diagonal.
 
 ### Install
 
