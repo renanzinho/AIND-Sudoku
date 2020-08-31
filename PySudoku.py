@@ -11,6 +11,7 @@ def play(values_list):
     pygame.init()
 
     a = 2
+    b = 3
     size = width, height = 700, 700
     screen = pygame.display.set_mode(size)
 
